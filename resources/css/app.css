@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-user{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-view{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    padding: 2rem;
+    border-radius: 3px;
+    min-width: 400px;
+}
+
+
+.container-view:nth-child(1){
+    color: #3b82f680;
+}
+.container-view form .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.container-view form .form-group h2{
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.container-view form .form-group label{
+    margin-top: 1rem;
+}
+.container-view form .form-group input{
+    display: flex;
+    padding: 0.5rem;
+    border-radius: .5rem;
+}
+.form-button{
+    padding: .5rem 2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #3b82f680;
+    color: white;
+    transition: all .5s;
+}
+.form-button:hover{
+    background-color: #3b83f6;
+    transform: scale(1.050, 1.050);
+}
+
+.container-view:nth-child(2){
+    background-color: #ffffff70;
+    overflow-y: auto;
+    color: #3b82f680;
+}
+.container-view:nth-child(2) ul li strong{
+    color: #3b83f6;
+}
+
+.container-view:nth-child(2) ul h2{
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.list-button{
+    display: inline-block;
+    padding: .4rem;
+    margin: .5rem 0;
+    border-radius: 5px;
+    background-color: #f63b3b80;
+    color: white;
+    transition: all .5s;
+}
+.list-button:hover{
+    background-color: #f63b3b;
+    transform: scale(1.050, 1.050);
+}
